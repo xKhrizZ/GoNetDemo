@@ -1,0 +1,6 @@
+framework module iOSBusinessDomain {
+  umbrella header "iOSBusinessDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}

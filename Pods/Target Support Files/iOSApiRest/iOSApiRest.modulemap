@@ -1,0 +1,6 @@
+framework module iOSApiRest {
+  umbrella header "iOSApiRest-umbrella.h"
+
+  export *
+  module * { export * }
+}

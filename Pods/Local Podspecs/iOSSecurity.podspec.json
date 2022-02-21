@@ -1,0 +1,23 @@
+{
+  "name": "iOSSecurity",
+  "version": "0.1.0",
+  "summary": "Framework for security",
+  "homepage": "https://github.com/xKhrizZ/iOSSecurity",
+  "license": "MIT",
+  "authors": {
+    "Christian R": "christianapu@hotmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/xKhrizZ/iOSSecurity.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "iOSSecurity/**/*.{swift}",
+  "dependencies": {
+    "CryptoSwift": [
+      "~> 1.4.3"
+    ]
+  }
+}

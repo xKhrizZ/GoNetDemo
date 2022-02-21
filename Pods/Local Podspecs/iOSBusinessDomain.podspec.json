@@ -1,0 +1,18 @@
+{
+  "name": "iOSBusinessDomain",
+  "version": "0.1.0",
+  "summary": "Framework for business domain",
+  "homepage": "https://github.com/xKhrizZ/iOSBusinessDomain",
+  "license": "MIT",
+  "authors": {
+    "Christian R": "christianapu@hotmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/xKhrizZ/iOSBusinessDomain.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "iOSBusinessDomain/**/*.{swift}"
+}

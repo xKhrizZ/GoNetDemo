@@ -1,0 +1,6 @@
+framework module iOSSecurity {
+  umbrella header "iOSSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "iOSDataPersistence",
+  "version": "1.1.0",
+  "summary": "Framework for data persistence",
+  "homepage": "https://github.com/xKhrizZ/iOSDataPersistence",
+  "license": "MIT",
+  "authors": {
+    "Christian R": "christianapu@hotmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/xKhrizZ/iOSDataPersistence.git",
+    "tag": "1.1.0"
+  },
+  "source_files": "**/*.{h,swift}",
+  "resource_bundles": {
+    "iOSDataPersistence": [
+      "**/*.xcdatamodeld"
+    ]
+  },
+  "frameworks": "CoreData",
+  "static_framework": true
+}

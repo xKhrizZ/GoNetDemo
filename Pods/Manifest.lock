@@ -1,0 +1,33 @@
+PODS:
+  - CryptoSwift (1.4.3)
+  - iOSApiRest (0.1.0)
+  - iOSBusinessDomain (0.1.0)
+  - iOSSecurity (0.1.0):
+    - CryptoSwift (~> 1.4.3)
+
+DEPENDENCIES:
+  - iOSApiRest (from `../iOSApiRest`)
+  - iOSBusinessDomain (from `../iOSBusinessDomain`)
+  - iOSSecurity (from `../iOSSecurity`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  iOSApiRest:
+    :path: "../iOSApiRest"
+  iOSBusinessDomain:
+    :path: "../iOSBusinessDomain"
+  iOSSecurity:
+    :path: "../iOSSecurity"
+
+SPEC CHECKSUMS:
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  iOSApiRest: e7a8f74dd7c83d1b49023866c0b5a5e5806c12fa
+  iOSBusinessDomain: 2ab3084b7de4e784929e37c307744eef9cacc997
+  iOSSecurity: 6bac27d8f29f37a674d316872f85834ff5e7711e
+
+PODFILE CHECKSUM: 958d90f395f9ded2fbf2c46e835b314747d020a8
+
+COCOAPODS: 1.11.2
