@@ -23,6 +23,7 @@ pod install
 ### Tecnologias aplicadas
 
 * Patron de diseño MVC
+* Singleton
 * URLSession
 * Network
 * CoreData
