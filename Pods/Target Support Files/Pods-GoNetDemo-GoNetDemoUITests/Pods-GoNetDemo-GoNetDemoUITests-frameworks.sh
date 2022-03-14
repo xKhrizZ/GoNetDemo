@@ -179,12 +179,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSApiRest/iOSApiRest.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSBusinessDomain/iOSBusinessDomain.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSDataPersistence/iOSDataPersistence.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSSecurity/iOSSecurity.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSApiRest/iOSApiRest.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSBusinessDomain/iOSBusinessDomain.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSDataPersistence/iOSDataPersistence.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/iOSSecurity/iOSSecurity.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

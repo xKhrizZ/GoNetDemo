@@ -1,0 +1,6 @@
+framework module iOSDataPersistence {
+  umbrella header "iOSDataPersistence-umbrella.h"
+
+  export *
+  module * { export * }
+}

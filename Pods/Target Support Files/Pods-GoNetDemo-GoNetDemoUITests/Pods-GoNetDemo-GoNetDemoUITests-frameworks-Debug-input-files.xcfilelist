@@ -2,4 +2,5 @@ ${PODS_ROOT}/Target Support Files/Pods-GoNetDemo-GoNetDemoUITests/Pods-GoNetDemo
 ${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
 ${BUILT_PRODUCTS_DIR}/iOSApiRest/iOSApiRest.framework
 ${BUILT_PRODUCTS_DIR}/iOSBusinessDomain/iOSBusinessDomain.framework
+${BUILT_PRODUCTS_DIR}/iOSDataPersistence/iOSDataPersistence.framework
 ${BUILT_PRODUCTS_DIR}/iOSSecurity/iOSSecurity.framework

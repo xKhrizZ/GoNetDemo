@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/iOSDataPersistence/iOSDataPersistence.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/iOSDataPersistence/iOSDataPersistence.framework/CoreDataModel.momd"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/iOSDataPersistence/iOSDataPersistence.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/iOSDataPersistence/iOSDataPersistence.framework/CoreDataModel.momd"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

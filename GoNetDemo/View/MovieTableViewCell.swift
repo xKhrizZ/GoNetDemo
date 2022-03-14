@@ -9,6 +9,7 @@ import UIKit
 import iOSApiRest
 import iOSBusinessDomain
 import iOSSecurity
+import iOSDataPersistence
 
 protocol MovieTableViewCellDelegate {
     func launchVC(movieDetail: Results)
@@ -86,7 +87,7 @@ class MovieTableViewCell: UITableViewCell {
     private func catalogMovieOffline(idSection: Int?) {
         print("Entra al caso offline idSection -> \(idSection)")
         
-        guard let movieString = CoreDataController.shared.fetchMovie(with: idSection!)?.data, !movieString.isEmpty else {
+        guard let movieString = CoreDataManager.shared?.fetchMovie(with: idSection!)?.data, !movieString.isEmpty else {
             print("Error el movieString viene vacio no se encontro en la base la seccion cifrada del json")
             return
         }
@@ -148,8 +149,8 @@ extension MovieTableViewCell: URL_SessionDelegate {
                     return String(data: data, encoding: .utf8)!
                 }
                 
-                CoreDataController.shared.removeMovie(with: idSection!)
-                CoreDataController.shared.addMovie(with: idSection!, with: jsonString)
+                CoreDataManager.shared?.removeMovie(with: idSection!)
+                CoreDataManager.shared?.addMovie(with: idSection!, with: jsonString)
                 
             } catch {
                 print("Ocurrió un error con la serialización del JSON")

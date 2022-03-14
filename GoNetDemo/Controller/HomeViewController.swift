@@ -9,7 +9,7 @@ import UIKit
 
 import iOSSecurity
 import iOSBusinessDomain
-//import iOSDataPersistence
+import iOSDataPersistence
 
 
 class HomeViewController: UIViewController {
@@ -33,7 +33,7 @@ class HomeViewController: UIViewController {
     func isOfflineMovie() {
         NetworkMonitorController.shared.CheckNetworkConnection() { [self] isOnline in
             if !isOnline {
-                if (CoreDataController.shared.fetchMovieCount() == 0){
+                if (CoreDataManager.shared?.fetchMovieCount() == 0){
                     showAlert(title: BusinessDomainManager.msgAtention, message: BusinessDomainManager.msgNoCatalogStorage, action: BusinessDomainManager.actionClick)
                 }
             }

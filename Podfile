@@ -7,7 +7,7 @@ target 'GoNetDemo' do
 
   # Pods for GoNetDemo
   pod 'iOSApiRest', :path => '../iOSApiRest'
-  #pod 'iOSDataPersistence', :path => '../iOSDataPersistence'
+  pod 'iOSDataPersistence', :path => '../iOSDataPersistence'
   pod 'iOSSecurity', :path => '../iOSSecurity'
   pod 'iOSBusinessDomain', :path => '../iOSBusinessDomain'
 
